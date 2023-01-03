@@ -6,7 +6,26 @@
 
 
 
-## 相关论文
+## 内容导航
+
+### 基础知识
+
+- [推荐系统](https://github.com/yj8023xx/TinyRec/blob/main/basics/recommendation_system.ipynb)
+- [Embedding](https://github.com/yj8023xx/TinyRec/blob/main/basics/embedding.ipynb)
+- [相似度](https://github.com/yj8023xx/TinyRec/blob/main/basics/similarity.ipynb)
+- [指标](https://github.com/yj8023xx/TinyRec/blob/main/basics/metric.ipynb)
+- [评估](https://github.com/yj8023xx/TinyRec/blob/main/basics/evaluate.ipynb)
+
+### 传统模型
+
+| 序号 |    会议    |                             模型                             |                           论文链接                           |
+| :--: | :--------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
+|  1   |     -      | [CF](https://github.com/yj8023xx/TinyRec/blob/main/basic_model/01_neighborhood-based.ipynb) |                              -                               |
+|  2   |     -      | [LFM](https://github.com/yj8023xx/TinyRec/blob/main/basic_model/02_latent_factor_model.ipynb) |                              -                               |
+|  3   |     -      | [FM](https://github.com/yj8023xx/TinyRec/blob/main/basic_model/03_factorization_machine%20.ipynb) |                              -                               |
+|  4   | `ADKDD'14` | [GBDT_LR](https://github.com/yj8023xx/TinyRec/blob/main/basic_model/04_gbdt_lr.ipynb) | [Practical Lessons from Predicting Clicks on Ads at Facebook]() 🚩**Facebook** |
+
+### 神经网络模型
 
 | 序号 |    会议    |                             模型                             |                           论文链接                           |
 | :--: | :--------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
@@ -26,3 +45,4 @@
 
 - **[FuxiCTR](https://github.com/xue-pai/FuxiCTR)**
 - 《深度学习推荐系统》 王喆
+- **[fun-rec](https://github.com/datawhalechina/fun-rec)**
