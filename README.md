@@ -8,7 +8,7 @@
 
 ### 基础知识
 
-- [推荐系统](https://github.com/yj8023xx/TinyRec/blob/main/basics/recommendation_system.ipynb)
+- [推荐系统](https://github.com/yj8023xx/TinyRec/blob/main/basics/recommender_system.ipynb)
 - [Embedding](https://github.com/yj8023xx/TinyRec/blob/main/basics/embedding.ipynb)
 - [相似度](https://github.com/yj8023xx/TinyRec/blob/main/basics/similarity.ipynb)
 - [指标](https://github.com/yj8023xx/TinyRec/blob/main/basics/metric.ipynb)
