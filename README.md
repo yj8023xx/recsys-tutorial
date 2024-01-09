@@ -8,35 +8,35 @@
 
 ### 基础知识
 
-- [推荐系统](https://github.com/yj8023xx/TinyRec/blob/main/basics/recommender_system.ipynb)
-- [Embedding](https://github.com/yj8023xx/TinyRec/blob/main/basics/embedding.ipynb)
-- [相似度](https://github.com/yj8023xx/TinyRec/blob/main/basics/similarity.ipynb)
-- [指标](https://github.com/yj8023xx/TinyRec/blob/main/basics/metric.ipynb)
-- [评估](https://github.com/yj8023xx/TinyRec/blob/main/basics/evaluate.ipynb)
+- [推荐系统](https://github.com/yj8023xx/recsys-tutorial/blob/main/basics/recommender_system.ipynb)
+- [Embedding](https://github.com/yj8023xx/recsys-tutorial/blob/main/basics/embedding.ipynb)
+- [相似度](https://github.com/yj8023xx/recsys-tutorial/blob/main/basics/similarity.ipynb)
+- [指标](https://github.com/yj8023xx/recsys-tutorial/blob/main/basics/metric.ipynb)
+- [评估](https://github.com/yj8023xx/recsys-tutorial/blob/main/basics/evaluate.ipynb)
 
 ### 传统模型
 
 | 序号 |    会议    |                             模型                             |                           论文链接                           |
 | :--: | :--------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
-|  1   |     -      | [CF](https://github.com/yj8023xx/TinyRec/blob/main/basic_model/01_neighborhood-based.ipynb) |                              -                               |
-|  2   |     -      | [LFM](https://github.com/yj8023xx/TinyRec/blob/main/basic_model/02_latent_factor_model.ipynb) |                              -                               |
-|  3   |     -      | [FM](https://github.com/yj8023xx/TinyRec/blob/main/basic_model/03_factorization_machine%20.ipynb) |                              -                               |
-|  4   | `ADKDD'14` | [GBDT_LR](https://github.com/yj8023xx/TinyRec/blob/main/basic_model/04_gbdt_lr.ipynb) | [Practical Lessons from Predicting Clicks on Ads at Facebook]() 🚩**Facebook** |
+|  1   |     -      | [CF](https://github.com/yj8023xx/recsys-tutorial/blob/main/basic_model/01_neighborhood-based.ipynb) |                              -                               |
+|  2   |     -      | [LFM](https://github.com/yj8023xx/recsys-tutorial/blob/main/basic_model/02_latent_factor_model.ipynb) |                              -                               |
+|  3   |     -      | [FM](https://github.com/yj8023xx/recsys-tutorial/blob/main/basic_model/03_factorization_machine%20.ipynb) | [Factorization Machines](https://analyticsconsultores.com.mx/wp-content/uploads/2019/03/Factorization-Machines-Steffen-Rendle-Osaka-University-2010.pdf) |
+|  4   | `ADKDD'14` | [GBDT_LR](https://github.com/yj8023xx/recsys-tutorial/blob/main/basic_model/04_gbdt_lr.ipynb) | [Practical Lessons from Predicting Clicks on Ads at Facebook]() 🚩**Facebook** |
 
 ### 神经网络模型
 
 | 序号 |    会议    |                             模型                             |                           论文链接                           |
 | :--: | :--------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
-|  1   | `CIKM'13`  | [DSSM](https://github.com/yj8023xx/TinyRec/blob/main/nerual_network_model/01_dssm.ipynb) | [Learning Deep Structured Semantic Models for Web Search using Clickthrough Data ](https://posenhuang.github.io/papers/cikm2013_DSSM_fullversion.pdf)🚩**Microsoft** |
-|  2   | `DLRS'16`  | [Wide&Deep](https://github.com/yj8023xx/TinyRec/blob/main/nerual_network_model/02_wide%26deep.ipynb) | [Wide & Deep Learning for Recommender Systems](https://arxiv.org/pdf/1606.07792.pdf) 🚩**Google** |
-|  3   | `ICDM'16`  | [PNN](https://github.com/yj8023xx/TinyRec/blob/main/nerual_network_model/03_pnn.ipynb) | [Product-based Neural Networks for User Response Prediction](https://arxiv.org/pdf/1611.00144.pdf) |
-|  4   |  `KDD'16`  | [DeepCrossing](https://github.com/yj8023xx/TinyRec/blob/main/nerual_network_model/04_deepcrossing.ipynb) | [Deep Crossing: Web-Scale Modeling without Manually Crafted Combinatorial Features](https://www.kdd.org/kdd2016/papers/files/adf0975-shanA.pdf) 🚩**Microsoft** |
-|  5   |  `WWW'17`  | [NCF](https://github.com/yj8023xx/TinyRec/blob/main/nerual_network_model/05_ncf.ipynb) | [Neural Collaborative Filtering](https://dl.acm.org/doi/10.1145/3038912.3052569) |
-|  6   | `IJCAI'17` | [DeepFM](https://github.com/yj8023xx/TinyRec/blob/main/nerual_network_model/06_deepfm.ipynb) | [DeepFM: A Factorization-Machine based Neural Network for CTR Prediction](https://arxiv.org/abs/1703.04247) 🚩**Huawei** |
-|  7   | `SIGIR'17` | [NFM](https://github.com/yj8023xx/TinyRec/blob/main/nerual_network_model/07_nfm.ipynb) | [Neural Factorization Machines for Sparse Predictive Analytics](https://dl.acm.org/citation.cfm?id=3080777) |
-|  8   | `IJCAI'17` | [AFM](https://github.com/yj8023xx/TinyRec/blob/main/nerual_network_model/08_afm.ipynb) | [Attentional Factorization Machines: Learning the Weight of Feature Interactions via Attention Networks](http://www.ijcai.org/proceedings/2017/0435.pdf) |
-|  9   | `ADKDD'17` | [DCN](https://github.com/yj8023xx/TinyRec/blob/main/nerual_network_model/09_dcn.ipynb) | [Deep & Cross Network for Ad Click Predictions](https://arxiv.org/abs/1708.05123) 🚩**Google** |
-|  10  |  `KDD'18`  | [xDeepFM](https://github.com/yj8023xx/TinyRec/blob/main/nerual_network_model/10_xdeepfm.ipynb) | [xDeepFM: Combining Explicit and Implicit Feature Interactions for Recommender Systems](https://arxiv.org/pdf/1803.05170.pdf) 🚩**Microsoft** |
+|  1   | `CIKM'13`  | [DSSM](https://github.com/yj8023xx/recsys-tutorial/blob/main/nerual_network_model/01_dssm.ipynb) | [Learning Deep Structured Semantic Models for Web Search using Clickthrough Data ](https://posenhuang.github.io/papers/cikm2013_DSSM_fullversion.pdf)🚩**Microsoft** |
+|  2   | `DLRS'16`  | [Wide&Deep](https://github.com/yj8023xx/recsys-tutorial/blob/main/nerual_network_model/02_wide%26deep.ipynb) | [Wide & Deep Learning for Recommender Systems](https://arxiv.org/pdf/1606.07792.pdf) 🚩**Google** |
+|  3   | `ICDM'16`  | [PNN](https://github.com/yj8023xx/recsys-tutorial/blob/main/nerual_network_model/03_pnn.ipynb) | [Product-based Neural Networks for User Response Prediction](https://arxiv.org/pdf/1611.00144.pdf) |
+|  4   |  `KDD'16`  | [DeepCrossing](https://github.com/yj8023xx/recsys-tutorial/blob/main/nerual_network_model/04_deepcrossing.ipynb) | [Deep Crossing: Web-Scale Modeling without Manually Crafted Combinatorial Features](https://www.kdd.org/kdd2016/papers/files/adf0975-shanA.pdf) 🚩**Microsoft** |
+|  5   |  `WWW'17`  | [NCF](https://github.com/yj8023xx/recsys-tutorial/blob/main/nerual_network_model/05_ncf.ipynb) | [Neural Collaborative Filtering](https://dl.acm.org/doi/10.1145/3038912.3052569) |
+|  6   | `IJCAI'17` | [DeepFM](https://github.com/yj8023xx/recsys-tutorial/blob/main/nerual_network_model/06_deepfm.ipynb) | [DeepFM: A Factorization-Machine based Neural Network for CTR Prediction](https://arxiv.org/abs/1703.04247) 🚩**Huawei** |
+|  7   | `SIGIR'17` | [NFM](https://github.com/yj8023xx/recsys-tutorial/blob/main/nerual_network_model/07_nfm.ipynb) | [Neural Factorization Machines for Sparse Predictive Analytics](https://dl.acm.org/citation.cfm?id=3080777) |
+|  8   | `IJCAI'17` | [AFM](https://github.com/yj8023xx/recsys-tutorial/blob/main/nerual_network_model/08_afm.ipynb) | [Attentional Factorization Machines: Learning the Weight of Feature Interactions via Attention Networks](http://www.ijcai.org/proceedings/2017/0435.pdf) |
+|  9   | `ADKDD'17` | [DCN](https://github.com/yj8023xx/recsys-tutorial/blob/main/nerual_network_model/09_dcn.ipynb) | [Deep & Cross Network for Ad Click Predictions](https://arxiv.org/abs/1708.05123) 🚩**Google** |
+|  10  |  `KDD'18`  | [xDeepFM](https://github.com/yj8023xx/recsys-tutorial/blob/main/nerual_network_model/10_xdeepfm.ipynb) | [xDeepFM: Combining Explicit and Implicit Feature Interactions for Recommender Systems](https://arxiv.org/pdf/1803.05170.pdf) 🚩**Microsoft** |
 
 
 
